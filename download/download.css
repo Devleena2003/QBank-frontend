@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&family=Roboto+Slab:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #1A192E;
+}
+
+::-moz-selection {
+  background: #F9C041;
+}
+
+::selection {
+  background: #F9C041;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #1A192E;
+  border-bottom: 1px solid #E2E8F0;
+  padding: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #F9C041;
+}
+
+#container {
+  padding: 40px;
+}
+#container .container-heading h1 {
+  font-size: 30px;
+  color: #F9C041;
+  font-weight: 400;
+}
+#container .container-text {
+  list-style: none;
+  display: flex;
+  padding: 20px 0;
+  color: #F9C041;
+}
+#container .container-text ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5em;
+}
+#container .bottom-cont {
+  padding: 15px 0;
+}
+#container .bottom-cont button {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F9C041;
+  color: #1A192E;
+}/*# sourceMappingURL=download.css.map */
