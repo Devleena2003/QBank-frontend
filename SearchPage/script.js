@@ -25,7 +25,30 @@ let products = {
        
         image: "notes.png",
       },
-     
+      {
+        productName: " Latest Study Material",
+        category: "Study-Material",
+        
+        image: "study material.png",
+      },
+      {
+        productName: " Handwritten Notes",
+        category: "Notes",
+       
+        image: "notes.png",
+      },
+      {
+        productName: "Previous Year Question Papers",
+        category: "Sample-Question-Papers",
+       
+        image: "sampleQs.jpg",
+      },
+      {
+        productName: "Latest Cheatsheets",
+        category: "Cheatsheets",
+       
+        image: "notes.png",
+      },
     ],
   };
   
